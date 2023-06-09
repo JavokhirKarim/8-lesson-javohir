@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+  height: 44px;
+}
+/* .image1 {
+  padding-left: 300px;
+} */
+.phone {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* gray */
+
+  color: #969696;
+  padding-left: 16.3px;
+}
+.image2 {
+  padding-left: 595px;
+}
+.nav {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: right;
+
+  /* gray */
+
+  color: #969696;
+  padding-left: 15px;
+}
+.text1 {
+  font-family: "Post No Bills Jaffna";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+
+  color: #ffffff;
+  padding-top: 15px;
+  padding-left: 405px;
+  padding-bottom: 16px;
+}
+.header2 {
+  background-color: #0f0f0f;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.text2 {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  padding-left: 489px;
+}
+.text3 {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  /* gray */
+
+  color: #969696;
+  padding-left: 40px;
+}
+.text4 {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  /* gray */
+
+  color: #969696;
+  padding-left: 40px;
+}
+.image3 {
+  padding-left: 62px;
+}
+.image4 {
+  padding-left: 45px;
+}
+.body {
+  background-image: url(../images/Rectangle\ 3.svg);
+  max-width: 1920px;
+  width: 100%;
+  height: 810px;
+}
+.logo {
+  padding-top: 160px;
+  padding-left: 800px;
+  padding-right: 800px;
+}
+.text5 {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  padding-top: 80px;
+}
+.center {
+  display: flex;
+  max-width: 1920px;
+}
+.div1 {
+  float: left;
+  max-width: 960px;
+  background-color: black;
+  height: 730px;
+}
+.text6 {
+  display: block;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* white */
+
+  color: #ffffff;
+  padding-top: 93px;
+}
+.pictures {
+  display: flex;
+  padding-top: 100px;
+  justify-content: center;
+  align-content: space-around;
+}
+/* .pic1 {
+  padding-left: 73.85px;
+} */
+/* .pic2 {
+  padding-right: 46px;
+  padding-left: 46px;
+} */
+.div2 {
+  background-image: url(../images/Rectangle\ 8.png);
+  float: right;
+  max-width: 50%;
+  height: 730px;
+
+  /* white */
+
+  color: #ffffff;
+}
+.text7 {
+  display: block;
+  padding-top: 484px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.line {
+  width: 131px;
+  height: 0px;
+  border: 1px solid white;
+  margin-left: 415.5px;
+  margin-top: 30px;
+}
+.text8 {
+  display: inline-block;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  /* white */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border: 1px solid white;
+  margin-left: 412px;
+  margin-top: 42px;
+  padding: 10px 20px 10px 20px;
+}
+.center2 {
+  display: flex;
+}
+.div3 {
+  float: left;
+  max-width: 960px;
+}
+.div4 {
+  float: right;
+  max-width: 960px;
+  background-color: black;
+  height: 600px;
+}
+.text9 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* white */
+
+  color: #ffffff;
+  padding-top: 100px;
+}
+.text10 {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+
+  text-align: center;
+
+  /* white */
+
+  color: #ffffff;
+  padding-top: 80px;
+  padding-right: 284px;
+  padding-left: 205px;
+}
+.text11 {
+  display: inline-block;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  /* white */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border: 1px solid white;
+  padding: 10px 20px 10px 20px;
+  margin-top: 73px;
+  margin-left: 313px;
+}
+.bottom {
+  height: 1289px;
+  max-width: 1920px;
+  width: 100%;
+  background-color: black;
+}
+.text12 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  /* white */
+
+  color: #ffffff;
+  padding-top: 120px;
+  padding-left: 740px;
+  padding-right: 740px;
+}
+.rasmlar {
+  display: flex;
+  padding-top: 121px;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.rasmlar2 {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  justify-content: center;
+  justify-content: space-around;
+}
+.text13 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  /* white */
+
+  color: #ffffff;
+  padding-top: 60px;
+}
+.bottom2 {
+  background-color: #0f0f0f;
+  max-width: 1920px;
+  width: 100%;
+  height: 362px;
+}
+.rasmlar11 {
+  padding-top: 80px;
+  padding-left: 405px;
+}
+/* RESPONSIVE */
+@media (max-width: 1440px) {
+}
+@media (max-width: 976px) {
+  .image1 {
+    padding-left: 20px;
+  }
+  .nav {
+    display: flex;
+    padding-top: 5px;
+    padding-left: 15px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 120px;
+  }
+  .image2 {
+    padding-left: 120px;
+  }
+  /* .body {
+    width: 798px;
+    height: 810px;
+  } */
+}
+.div4 {
+  display: block;
+  width: 960px;
+  background-color: black;
+  height: 600px;
+}
+.div3 {
+  display: block;
+  max-width: 50%;
+}
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+}
